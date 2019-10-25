@@ -61,5 +61,6 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
