@@ -58,6 +58,14 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+inoremap {<Enter> {}<Left><CR><ESC><S-o>
+inoremap [<Enter> []<Left><CR><ESC><S-o>
+inoremap (<Enter> ()<Left><CR><ESC><S-o>
+inoremap '<Enter> ''<Left><CR><ESC><S-o>
+inoremap "<Enter> ""<Left><CR><ESC><S-o> 
+inoremap `<Enter> ``<Left><CR><ESC><S-o> 
+noremap PP "0p
+noremap x "_x
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
