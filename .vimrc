@@ -34,7 +34,7 @@ nnoremap k gk
 " シンタックスハイライトの有効化
 syntax enable
 " カラースキームの設定
-colorscheme iceberg
+colorscheme Iceberg
 
 " Tab系
 " 不可視文字を可視化(タブが「▸-」と表示される)
@@ -64,3 +64,5 @@ Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
+
+nnoremap :tree :NERDTree
