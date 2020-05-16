@@ -1,0 +1,93 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+hook_add = '''
+  source ~/.config/nvim/plugins/denite.vim
+'''
+
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+hook_add = '''
+  set termguicolors
+  au MyAutoCmd VimEnter * nested colorscheme iceberg
+'''
+
+[[plugins]]
+repo = 'roxma/nvim-yarp'
+
+[[plugins]]
+repo = 'roxma/vim-hug-neovim-rpc'
+
+[[plugins]]
+repo = 'Shougo/defx.nvim'
+hook_add = '''
+  source ~/.config/nvim/plugins/defx.vim
+'''
+
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+[[plugins]]
+repo = 'ervandew/supertab'
+
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+
+[[plugins]]
+repo = 'alvan/vim-closetag'
+hook_add = '''
+source ~/.config/nvim/plugins/vim-closetag.vim
+'''
+
+[[plugins]]
+repo = 'preservim/nerdcommenter'
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+source ~/.config/nvim/plugins/lightline.vim
+'''
+
+[[plugins]]
+repo = 'mengelbrecht/lightline-bufferline'
+
+[[plugins]]
+repo = 'dense-analysis/ale'
+hook_add = '''
+source ~/.config/nvim/plugins/ale.vim
+'''
+
+[[plugins]]
+repo = 'prabirshrestha/async.vim'
+
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+hook_add = '''
+source ~/.config/nvim/plugins/vim-lsp-settings.vim
+'''
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+source ~/.config/nvim/plugins/deoplete.vim
+'''
+
+[[plugins]]
+repo = 'lighttiger2505/deoplete-vim-lsp'
+
+[[plugins]]
+repo = 'simeji/winresizer'
+hook_add = '''
+source ~/.config/nvim/plugins/winresizer.vim
+'''
