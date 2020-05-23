@@ -32,14 +32,13 @@ nnoremap k gk
 noremap PP "0p
 noremap x "_x
 noremap r <C-r>
-nnoremap wj <C-w>j
-nnoremap wk <C-w>k
-nnoremap wl <C-w>l
-nnoremap wh <C-w>h
-nnoremap wq <C-w>q
-nnoremap <C-w> <Nop>
-nnoremap ws :<C-u>sp<CR><C-w>j
-nnoremap wv :<C-u>vs<CR><C-w>l
+nnoremap sj <C-w>j
+nnoremap sk <C-w>k
+nnoremap sl <C-w>l
+nnoremap sh <C-w>h
+nnoremap sq <C-w>q
+nnoremap ss :<C-u>sp<CR><C-w>j
+nnoremap sv :<C-u>vs<CR><C-w>l
 nnoremap tc :tablast <bar> tabnew<CR>
 nnoremap tq :tabclose<CR>
 nnoremap tl :<C-u>bnext<CR>

@@ -1,4 +1,4 @@
-nnoremap <silent><C-e> :<C-u>Defx -show-ignored-files<CR>
+nnoremap <silent><C-e> :<C-u>Defx -resume -show-ignored-files<CR>
 
 autocmd FileType defx call s:defx_my_settings()
   function! s:defx_my_settings() abort
