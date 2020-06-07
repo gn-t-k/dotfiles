@@ -43,6 +43,7 @@ nnoremap tc :tablast <bar> tabnew<CR>
 nnoremap tq :tabclose<CR>
 nnoremap tl :<C-u>bnext<CR>
 nnoremap th :<C-u>bprev<CR>
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 syntax enable
 
 if &compatible

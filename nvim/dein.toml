@@ -30,9 +30,6 @@ hook_add = '''
 repo = 'sheerun/vim-polyglot'
 
 [[plugins]]
-repo = 'ervandew/supertab'
-
-[[plugins]]
 repo = 'jiangmiao/auto-pairs'
 
 [[plugins]]
@@ -60,34 +57,17 @@ source ~/.config/nvim/plugins/lightline.vim
 repo = 'mengelbrecht/lightline-bufferline'
 
 [[plugins]]
-repo = 'dense-analysis/ale'
-hook_add = '''
-source ~/.config/nvim/plugins/ale.vim
-'''
-
-[[plugins]]
-repo = 'prabirshrestha/async.vim'
-
-[[plugins]]
-repo = 'prabirshrestha/vim-lsp'
-
-[[plugins]]
-repo = 'mattn/vim-lsp-settings'
-hook_add = '''
-source ~/.config/nvim/plugins/vim-lsp-settings.vim
-'''
-
-[[plugins]]
-repo = 'Shougo/deoplete.nvim'
-hook_add = '''
-source ~/.config/nvim/plugins/deoplete.vim
-'''
-
-[[plugins]]
-repo = 'lighttiger2505/deoplete-vim-lsp'
-
-[[plugins]]
 repo = 'simeji/winresizer'
 hook_add = '''
 source ~/.config/nvim/plugins/winresizer.vim
+'''
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+build = '''
+  git checkout release
+'''
+hook_add = '''
+source ~/.config/nvim/plugins/coc.vim
 '''
