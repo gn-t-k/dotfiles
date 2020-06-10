@@ -1,4 +1,3 @@
 {
-  "eslint.filetypes": ["javascript", "vue"],
-  "coc.preferences.formatOnSaveFiletypes": ["html","css", "javascript", "typescript", "vue", "json", "markdown"],
+  "eslint.filetypes": ["javascript", "vue"]
 }
